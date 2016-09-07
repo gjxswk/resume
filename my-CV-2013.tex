@@ -105,98 +105,93 @@
 \makecvtitle
 
 % footnote in my moderncv.
-\footnotetext[1]{http://hbase.apache.org/}
-\footnotetext[2]{https://code.google.com/p/gperftools/}
-\footnotetext[3]{www.neo4j.org}
-\footnotetext[4]{http://zookeeper.apache.org/}
+%\footnotetext[1]{http://hbase.apache.org/}
+%\footnotetext[2]{https://code.google.com/p/gperftools/}
+%\footnotetext[3]{www.neo4j.org}
+%\footnotetext[4]{http://zookeeper.apache.org/}
 
 
 \section{\li{教育经历}}
-\tlcventry{2011}{0}{\hei{硕士在读}}{网络数据科学与技术重点实验室}{中国科学院计算技术研究所}{北京}{}
-\tllabelcventry{2007}{2011}{2007-2011}{\hei{学士}}{计算机科学与技术}{华中科技大学}{武汉, 年级排名 5\% 以内}{}
+\tlcventry{2014}{0}{\hei{硕士在读}}{智能技术与系统国家重点实验室}{计算机科学与技术系}{清华大学}{}
+\tllabelcventry{2010}{2014}{2010-2014}{\hei{学士}}{计算机科学与技术}{清华大学}{北京}{}
 
 \section{\li{专业技能}}
-\cvdoubleitem{操作系统:}{Ubuntu, Fedora, CentOS}{数据库:}{MySQL, HBase\footnotemark[1], Memcached}
-\cvdoubleitem{编程语言:}{C/C++, Java, Python, Bash, Lua}{工具链:}{GCC, GDB, Binutils, LLVM/Clang}
-\cvdoubleitem{代码工具:}{Vim, Git, SVN, CMake, Eclipse}{其他工具:}{Valgrind,SystemTap,Gperftools\footnotemark[2]}
-\cvdoubleitem{文档编写:}{LaTeX, Markdown, Word, PPT}{外语水平:}{英语~6~级(549)}
+\cvdoubleitem{操作系统:}{Ubuntu, Android, iOS, Mac OS X}{数据库:}{MySQL, SQLite, Oracle}
+\cvdoubleitem{软件编程:}{C/C++, Java, Python}{硬件编程:}{VHDL + Quartus}
+\cvdoubleitem{代码工具:}{Vim, Git, Eclipse, X-Code, openGL, openCV}{集成环境:}{Visual Studio, Android Studio, Matlab, Qt,}
+\cvdoubleitem{其他工具:}{OPNET, Photoshop，Dreamweaver, HTC Vive+Steam＋Unity}{文档编写:}{LaTeX, Word, PPT}
 %\cvdoubleitem{个人博客}{\textcolor[rgb]{0.4,0.4,0.4}{\texttt{\httplink{www.cnblogs.com/haippy/}}}}{\textsc{Github} 主页}{\textcolor[rgb]{0.4,0.4,0.4}{\texttt{\httplink{www.github.com/forhappy/}}}}
 
-\section{\li{硕士期间参与项目}}
-\tllabelcventry{2012}{0}{2013.3-2013.8}{\hei{网络图搜索项目开发}}{主要开发人员}{编程语言: Java}{}{
+\section{\li{本硕期间参与项目}}
+\tllabelcventry{2011}{0}{2011.10-2011.12}{\hei{用Qt实现迷宫游戏和数独游戏的应用软件}}{全部工作}{编程环境：Qt}{}{
 \begin{tightitemize}
-	\item 关键技术:~HBase, Neo4J\footnotemark[3], RESTful API, Zookeeper\footnotemark[4].
-	\item 利用 HBase 保存图数据。
-	\item 利用 Neo4J 缓存 HBase 保存的图数据，加速关系的计算。
-	\item 为前台用户设计了一套 RESTful 接口。
+	\item 关键技术:~界面编写，界面交互，游戏生成
 \end{tightitemize}}
-\tllabelcventry{2012}{2013}{2012.9-2013.4}{\hei{某网络搜索项目维护与二期开发}}{主要开发人员}{编程语言:~C++, Java}{}{
+\tllabelcventry{2011}{0}{2011.10-2011.12}{\hei{用Python实现网站信息抓取、过滤与搜索}}{全部工作}{编程语言：Python}{}{
 \begin{tightitemize}
-	\item 关键技术:~Thrift, NLPbamboo, Neo4J, RESTful API, Libevent, Zookeeper.
-	\item 编写和更新了 Neo4J 图数据库的数据入库程序与查询接口.
-	\item 实现了一个简单的微博寻人的工具,  通过微博搜索页面 s.weibo.com 爬取微博用户的个人信息.
+	\item 关键技术:~正则表达式，信息匹配及搜索算法
 \end{tightitemize}}
-\tllabelcventry{2012}{0}{2012.12-至今}{\hei{某新媒体项目的网络视频地址解析库~\textsc{Android}~平台移植}}{主要开发人员}{编程语言:~\textsc{Java}}{}{
+\tllabelcventry{2012}{0}{2012.4-2012.6}{\hei{用Java实现新闻更新、阅读、格式转换的软件}}{全部工作}{编程环境：Eclipse}{}{
 \begin{tightitemize}
-	\item 关键技术:~HTTP, 协议分析.
+	\item 关键技术:~xml, html, pdf, doc/docx文件格式等间的相互转换
 \end{tightitemize}}
-\tllabelcventry{2011}{2012}{2012.3-2012.6}{\hei{\textsc{HBase}~数据导入工具的设计与实现}}{设计与实现人员}{编程语言:~\textsc{Java}}{}{
+\tllabelcventry{2012}{0}{2012.4-2012.6}{\hei{用Java实现的清华校园新闻网的搜索引擎}}{后端开发工作}{编程环境：Eclipse+Tomcat+Heritrix}{}{
 \begin{tightitemize}
-	\item 关键技术:~HBase, RDBMS(MySQL, Oracle), JDBC, SQL, Sqoop.
-	\item 基本介绍:~Haiep 功能上与 apache sqoop 类似, 用于从关系数据库向 HBase 导入数据.
-	\item 项目主页:~\textcolor[rgb]{0.4,0.4,0.4}{\texttt{\httplink{forhappy.github.com/haiep/}}}
+	\item 关键技术:~网页抓取、关键信息提取、搜索匹配算法
+\end{tightitemize}}
+\tllabelcventry{2013}{0}{2013.4-2011.6}{\hei{实现足球机器人带球行进射门}}{主要开发人员}{编程语言：C++}{}{
+\begin{tightitemize}
+	\item 关键技术:~机器人定位及环境障碍分析
+\end{tightitemize}}
+\tllabelcventry{2014}{0}{2014.3-2014.9}{\hei{基于时延容忍网络的网络协议设计与仿真}}{主要开发人员}{编程环境：OPNET，编程语言：C/C++}{}{
+\begin{tightitemize}
+	\item 关键技术:~Bundle协议数据格式和协议状态机的设计、实现和仿真
+\end{tightitemize}}
+\tllabelcventry{2014}{2015}{2014.9-2015.12}{\hei{空间机械臂大时延遥操作系统的建立与研究}}{主要开发人员}{编程环境：Kinect，Visual Studio, Matlab, openGL, openCV，编程语言:C++}{}{
+\begin{tightitemize}
+	\item 前端界面的编写，工作空间标定，机械臂路径规划
+	\item 时延预测，实现键盘和手柄等的控制方式，视觉伺服下自主抓取物体投放到指定地点
+\end{tightitemize}}
+\tllabelcventry{2016}{0}{2016.7-2016.9}{\hei{冗余机械臂避障路径规划和RRT算法改进}}{全部工作}{编程环境：Matlab，编程语言:Matlab编程语言，论文撰写工具:LaTex}{}{
+\begin{tightitemize}
+	\item 关键技术:~基于Newton-Raphson算法的路径规划，基于五次多项式的路径平滑，对RRT无目标性的改进算法RRT-GD.
+\end{tightitemize}}
+\tllabelcventry{2016}{0}{2016.5-至今}{\hei{基于VR技术的虚拟灵巧手系统的建立与研究}}{主要设计及开发人员}{开发环境：HTC Vive+Unity，编程语言:C/C++}{}{
+\begin{tightitemize}
+	\item 设计目标:~在三维虚拟空间中建立可交互的灵巧手（包含机械臂）模型，实现沉浸式的灵巧手操作体验，来模拟真实灵巧手的行为
 \end{tightitemize}}
 
-\footnotetext[5]{有效代码, 下同.}
-\footnotetext[6]{计算机技术与软件专业技术资格（水平）考试}
+\section{\li{主要实习经历}}
+\tllabelcventry{2012}{0}{2012.7-2012.9}{\hei{北京摩博科技科技有限公司}}{}{}{}{
+\begin{tightitemize}
+	\item 自学:iOS编程。开发平台：iPad，iPhone，Apple电脑.
+	\item 开发软件：每日新闻图片更新显示应用软件，iPad平台，抓取新闻信息，软件界面设计及新闻信息及图片显示
+\end{tightitemize}
+}
+
+%\footnotetext[5]{有效代码, 下同.}
+%\footnotetext[6]{计算机技术与软件专业技术资格（水平）考试}
 
 \section{\li{个人开源项目}}
 % \tlcventry{2007--2011}{Degree}{Institution}{City}{\textit{Grade}}{Description}
-\tllabelcventry{2011}{0}{2011.9}{\texttt{\textcolor[rgb]{0.55,0,0}{cpy-leveldb}}}{\textsc{C\&Python}}{1.5K SLOC\footnotemark[5]}{\textcolor[rgb]{0.4,0.4,0.4}{\texttt{\httplink{www.github.com/forhappy/cpy-leveldb}}}}{
+\tllabelcventry{2016}{0}{2016.9}{\texttt{\textcolor[rgb]{0.55,0,0}{robotRRT}}}{\textsc{Matlab project}}{\textcolor[rgb]{0.4,0.4,0.4}{\texttt{\httplink{www.github.com/gjxswk/robotRRT}}}}{}{
 \begin{tightitemize}
-	\item 基本介绍:~\textsc{Google Leveldb}~的~\textsc{Python}~绑定, 基于~\textsc{Leveldb~C~API}.
-\end{tightitemize}}
-\tllabelcventry{2012}{0}{2012.9}{\texttt{\textcolor[rgb]{0.55,0,0}{ossc}}}{\textsc{C\&Shell}}{18K SLOC}{\textcolor[rgb]{0.4,0.4,0.4}{\texttt{\httplink{www.github.com/forhappy/OSSC}}}}{
-\begin{tightitemize}
-	\item 基本介绍:~阿里云开放存储服务(Open Storage Service: OSS)~C~SDK, 首届阿里云开发者大赛获奖作品(最佳实用奖: 奖金~5~万人民币整, 合作者:~王维.)
-\end{tightitemize}}
-\tllabelcventry{2012}{0}{2012.12}{\texttt{\textcolor[rgb]{0.55,0,0}{reveldb}}}{\textsc{C\&Shell}}{12K SLOC}{\textcolor[rgb]{0.4,0.4,0.4}{\texttt{\httplink{www.github.com/forhappy/reveldb}}}}{
-\begin{tightitemize}
-	\item 基本介绍:~高性能~\textsc{Key-Value}~数据库服务器, 支持插件式存储引擎及~\textsc{Restful}~访问协议.
-\end{tightitemize}}
-\tllabelcventry{2013}{0}{2013.1}{\texttt{\textcolor[rgb]{0.55,0,0}{neo4cpp}}}{\textsc{C++}}{3K SLOC}{\textcolor[rgb]{0.4,0.4,0.4}{\texttt{\httplink{www.github.com/forhappy/neo4j-cpp-driver}}}}{
-\begin{tightitemize}
-	\item 基本介绍:~开源图数据库~Neo4J~的~C++~客户端(官方未提供~C++~客户端).
-\end{tightitemize}}
-\tllabelcventry{2013}{0}{2013.3}{\texttt{\textcolor[rgb]{0.55,0,0}{uvbook}}}{\textrm{reStructuredText}}{}{\textcolor[rgb]{0.4,0.4,0.4}{\texttt{\httplink{www.github.com/forhappy/uvbook}}}}{
-\begin{tightitemize}
-	\item 基本介绍:~\textsc{Libuv} 编程指南中文翻译.
-\end{tightitemize}}
-\tllabelcventry{2013}{0}{2013.4}{\texttt{\textcolor[rgb]{0.55,0,0}{zklua}}}{\textsc{C\&Lua}}{3.5K SLOC}{\textcolor[rgb]{0.4,0.4,0.4}{\texttt{\httplink{www.github.com/forhappy/zklua}}}}{
-\begin{tightitemize}
-	\item 基本介绍:~\textsc{Apache Zookeeper} 的 Lua 客户端, 基于 \textsc{Zooeeper C API}.
-\end{tightitemize}}
-\tllabelcventry{2013}{0}{2013.4}{\texttt{\textcolor[rgb]{0.55,0,0}{lua-snappy}}}{\textsc{C\&Lua}}{200 SLOC}{\textcolor[rgb]{0.4,0.4,0.4}{\texttt{\httplink{https://github.com/forhappy/lua-snappy}}}}{
-\begin{tightitemize}
-	\item \textcolor[rgb]{0,0,0.37}{Introduction}:~\textsc{Google 压缩库 Snappy 的 Lua 接口绑定.}
-\end{tightitemize}}
+	\item 基本介绍:~实现机器人避障路径规划，主要实现方法为RRT及其改进算法，包括bi-RRT及RRT-GD(自己写的改进算法)。逆运动学优化主要采用MLG和Newton-Raphson算法，对于Newton-Raphson算法规划的路径，使用五次多项式进行平滑。
+\end{tightitemize}
+}
 
-\section{\li{本科及硕士阶段所获主要奖项和证书}}
+\section{\li{学术论文}}
+\cvitem{2014.03}{\kai{《基于时延容忍网络的网络协议设计与仿真》，在OPNET中设计网络协议实现时延容忍网络通信机制，并仿真验证通信机制的性能}}
+\cvitem{2016.09}{\kai{《Robot Path Planning Using Newton-Raphson Method Based on RRT-GD》，基于Newton-Raphson方法的RRT避障路径规划改进算法}}
+
+\section{\li{本科及硕士阶段所获主要奖项}}
 \subsection{主要奖项}
-\cvitem{2012.12}{\kai{中科院计算技术研究所腾讯优秀奖学金}}
-\cvitem{2012.11}{\kai{首届阿里云开发者大赛最佳实用奖}}
-\cvitem{2011.07}{\kai{华中科技大学优秀毕业生}}
-\cvitem{2011.07}{\kai{湖北省学士学位优秀毕业论文}}
-\cvitem{2010.11}{\kai{华中科技大学学习优秀奖学金}}
-\cvitem{2009.11}{\kai{国家励志奖学金}}
-\cvitem{2008.11}{\kai{国家励志奖学金}}
-
-\subsection{证书}
-\cvitem{2010.10}{\kai{系统分析师(高级)\footnotemark[6]}}
-\cvitem{2010.03}{\kai{软件设计师(中级)\footnotemark[6]}}
+\cvitem{2010-2014}{\kai{北京兴大助学金}}
+\cvitem{2010-2011}{\kai{清华大学优秀学生奖助学金}}
+\cvitem{2011.11}{\kai{国家励志奖学金}}
 
 \section{\li{自我评价}}
-\cvitem{}{{为人随和, 责任心强, 喜欢跑步, 登山, 健身, 热爱代码与数学\smiley{}}}
+\cvitem{}{{为人随和, 责任心强, 性格乐观，喜欢跑步, 足球，篮球，旅游等等， 兴趣爱好广泛，喜欢探索新事物\smiley{}}}
 
 % if you are typesetting your resume in Chinese using CJK;
 % the \clearpage is required for fancyhdr to work correctly with CJK,
